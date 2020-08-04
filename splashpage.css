@@ -36,6 +36,100 @@ h3 {
 	padding-bottom: 20px;
 }
 
+a .footer {
+	color: white;
+	text-decoration: underline;	
+}
+
+.main {
+	padding-top: 120px;
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.left {
+	min-width: 200px;
+	width: 40%;
+	display: inline-block;
+}
+
+.right {
+	min-width: 540px;
+	width: 55%;
+	display: inline-block;
+}
+
+.company {
+	text-align: left;
+}
+
+.ryan {
+	text-align: right;
+}
+
+iframe {
+	margin: 0 auto;
+    width: 42vw;
+    height: 30vw;
+    float: right;
+    top: 120px;
+    right: 60px;
+    position: fixed;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	height: 90px;
+	width: 100%;
+	background-color: #572a26;
+	color: white;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 45px;
+	width: 100%;
+	background-color: #572a26;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: underline;
+	text-decoration-line: underline;	
+	text-decoration-style: solid;
+}
+
+.footer a:visited {
+	color: white;
+	text-decoration: underline;
+	text-decoration-line: underline;	
+	text-decoration-style: solid;
+}
+
 .main {
 	padding-top: 120px;
 	display: block;
